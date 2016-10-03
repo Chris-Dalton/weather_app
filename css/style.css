@@ -1,0 +1,67 @@
+/*General Page Style*/
+html{
+  background-color: blue;
+}
+h2, h1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h3{
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+.container-fluid{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: blue;
+  padding-top: auto;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.row-centered {
+    text-align:center;
+}
+/*toggle notation*/
+.toggleNote{
+  font-size: 14px;
+  color: white;
+}
+/*Styling for weather data boxes*/
+.weatherData{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px auto 10px auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 40px;
+  background-color: #E3DFDD;
+}
+
+p{margin-left: auto;
+  margin-right: auto; 
+  text-align: center; 
+  font-size: 22px;
+  
+}
+.weatherData > p{
+  margin-bottom: 40px;
+}
+/*Footer*/
+.WULogo{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  text-align: center;
+}
